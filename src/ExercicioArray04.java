@@ -12,9 +12,12 @@ public class ExercicioArray04 {
         ArrayList<Integer> numeros = new ArrayList<>();
         for(int i = 0; i < 10; i++){
             numeros.add(Integer.parseInt(JOptionPane.showInputDialog("Digite o " + (i+1) + "° número")));
-            System.out.println(numeros.get(i));
+            
         }
-        
+        for(int i = 0; i < 10; i++){
+        numeros.remove(numeros.get(3));
+        System.out.println(numeros.get(i));
+        }
         
         
     }
