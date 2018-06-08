@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
@@ -15,8 +14,13 @@ public class ExercicioArray04 {
             
         }
         for(int i = 0; i < 10; i++){
+        JOptionPane.showMessageDialog(null, "\nTodos os Números: " + numeros);
+        numeros.remove(numeros.get(4));
+        JOptionPane.showMessageDialog(null, "\nNúmeros que restaram: " + numeros);
         numeros.remove(numeros.get(3));
-        System.out.println(numeros.get(i));
+        JOptionPane.showMessageDialog(null, "\nNúmeros que restaram: " + numeros);
+        
+        break;
         }
         
         
